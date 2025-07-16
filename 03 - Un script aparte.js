@@ -1,7 +1,6 @@
-// Como buena práctica, lo mejor es separar el código JavaScript en un archivo externo
-// y enlazarlo en el HTML de la siguiente manera:
-// <script src="main.js"></script>
-// En este caso, el archivo se llama main.js y está en la misma carpeta que el HTML
+/* Como buena práctica, lo mejor es separar el código JavaScript en un archivo externo y enlazarlo en el HTML 
+de la siguiente manera: "<script src="main.js"></script>" en este caso, el archivo se llama main.js 
+y está en la misma carpeta que el HTML */
 
 
 alert("Hola que tal, bienvenido al curso");
