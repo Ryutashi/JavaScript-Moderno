@@ -14,7 +14,7 @@ o confusiones, pero es la manera clásica de definir una variable */
 
 let apellido = "Cruz Aguirre";
 /* let tiene un alcance más limitado, ya que solo se puede llamar y modificar esa variable dentro del bloque de código donde fue definida,
-y permite hacer mejores prácticas que con var */
+y permite hacer mejores prácticas que con "var" */
 
 const nacionalidad = "Colombia";
 /* const es una variable que no se puede modificar una vez definida, es decir, su valor es constante. Se usa para valores que no cambian a lo largo del tiempo,
