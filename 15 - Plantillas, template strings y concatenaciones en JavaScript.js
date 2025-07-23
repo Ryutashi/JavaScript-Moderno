@@ -23,7 +23,7 @@ console.log("El peso final de la jirafa tras comer " + hojasFrescas + " kilos de
 // COMILLAS INVERTIDAS (``)
 
 /* En lugar de utilizar comillas dobles (""), podemos utilzar comillas invertidas (``) para incluir variables directamente en el texto.
-con dollar y llaves ${} podemos incrustar para interpolar una variable.
+Con dollar y llaves ${} podemos incrustar para interpolar una variable.
 
 Tambien nos permite realizar saltos de linea cuando queramos incrustar ciertos trozos que hemos procesado con JavaScript de HTML en nuestro HTML principal*/
 
