@@ -1,14 +1,11 @@
 // TEMPLATE STRING
 
-/* 
 
-El template string es una forma de crear cadenas de texto en JavaScript que permite incluir variables y expresiones dentro de la cadena de manera más legible y sencilla.
+/* El template string es una forma de crear cadenas de texto en JavaScript que permite incluir variables y expresiones dentro de la cadena de manera más legible y sencilla.
 
 Se utiliza comillas invertidas (``) en lugar de comillas simples ('') o dobles ("") para definir el template string.
 
-Dentro del template string, se pueden incluir variables y expresiones utilizando la sintaxis ${variable} para interpolar el valor de la variable directamente en la cadena de texto.
- 
- */
+Dentro del template string, se pueden incluir variables y expresiones utilizando la sintaxis ${variable} para interpolar el valor de la variable directamente en la cadena de texto. */
 
 
 let jirafaKg = 1120;
