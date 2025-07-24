@@ -26,7 +26,7 @@ let year = 2028;
 
 if (year >= 2000 && year <= 2030) {
     // En este caso se ejecuta el primer bloque, ya que ambas condiciones son verdaderas, por lo tanto, "2028" es mayor o igual a "2000" y menor o igual a "2030"
-    console.log("Estamos en la era moderna"); // Estamos la era moderna
+    console.log("Estamos en la era moderna"); // Estamos en la era moderna
 
 }else if (year > 2030) {
     console.log("Estamos en la era postmoderna");
