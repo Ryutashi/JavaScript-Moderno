@@ -7,12 +7,10 @@
 let conCebolla = true;
 
 
-/* 
-Si añadimos el operador NOT (!) al principio de la variable, podemos invertir la condición, es decir, si "conCebolla" es verdadero, se invierte el valor a falso, 
+/* Si añadimos el operador NOT (!) al principio de la variable, podemos invertir la condición, es decir, si "conCebolla" es verdadero, se invierte el valor a falso, 
 y se ejecuta el bloque de código del else, y si es falso, se ejecuta el bloque de código del if.
 
-Esto es útil para manejar condiciones opuestas de manera más clara y concisa.
-*/
+Esto es útil para manejar condiciones opuestas de manera más clara y concisa. */
 
 
 // EJEMPLO 1
