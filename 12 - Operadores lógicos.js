@@ -1,8 +1,12 @@
 // OPERADORES LÓGICOS
 
 
-/* Los operadores lógicos se utilizan para combinar o invertir valores booleanos y devolver un valor booleano (true o false),
-Se utilizan principalmente en estructuras de control como condicionales y bucles. */
+/* 
+
+Los operadores lógicos se utilizan para combinar o invertir valores booleanos y devolver un valor booleano (true o false),
+Se utilizan principalmente en estructuras de control como condicionales y bucles. 
+
+*/
 
 
 
