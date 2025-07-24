@@ -1,6 +1,11 @@
 // OPERADORES DE INCREMENTO Y DECREMENTO
 
-/* El operador de incremento (++) se utiliza para aumentar el valor de una variable en 1, y el operador de decremento (--) se utiliza para disminuir el valor de una variable en 1.*/
+/*
+
+El operador de incremento (++) se utiliza para aumentar el valor de una variable en 1, 
+y el operador de decremento (--) se utiliza para disminuir el valor de una variable en 1.
+
+*/
 
 
 let cifra = 1200;
