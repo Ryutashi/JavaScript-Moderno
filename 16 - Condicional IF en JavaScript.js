@@ -22,7 +22,7 @@ if (estaLloviendo == true) {
 
 }else {
     // Si la condición es falsa, se ejecuta este bloque de código
-    console.log("No hace falta paraguas"); // No hace falta paraguas
+    console.log("No hace falta paraguas");
 }
 
 
