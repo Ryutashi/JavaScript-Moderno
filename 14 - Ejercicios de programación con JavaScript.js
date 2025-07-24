@@ -1,17 +1,13 @@
 // BLOQUE 1
 
-/* 
-
-EJERCICIO 1
+/* EJERCICIO 1
 
 Calcula cuantas horas le llevaría llegar a la luna a una nave espacial y guarda el resultado en una variable.
 
 La distancia desde la tierra hasta la luna es de 384.400 kilometros.
 
-La velocidad de la nave es de 1225 kilometros por hora.
+La velocidad de la nave es de 1225 kilometros por hora. */ 
 
-
-*/ 
 
 let distancia = 384400; // Distancia a la luna en kilómetros
 
@@ -37,16 +33,12 @@ console.log("Horas para llegar a la luna (redondeado): " + horas + " horas"); //
 
 // BLOQUE 2
 
-/* 
-
-EJERCICIO 2 
+/* EJERCICIO 2 
 
 Tenemos 7 cajas con 8 cookies rellena de chocolate cada una.
 
-¿Cuántas cookies en total tenemos en realidad?
+¿Cuántas cookies en total tenemos en realidad? */
 
-
-*/
 
 let cajas = 7; // Número de cajas
 
@@ -65,15 +57,11 @@ console.log("Total de cookies: " + totalCookies + " cookies"); // Total de cooki
 
 //BLOQUE 3
 
-/* 
-
-EJERCICIO 3
+/* EJERCICIO 3
 
 ¿Cuantos minutos tienen 7 horas?
 
-Utiliza variables y operadores para resolverlo
-
-*/
+Utiliza variables y operadores para resolverlo */
 
 
 const minuto = 60; // Cantida de munutos
@@ -93,18 +81,13 @@ console.log("7 horas tiene: " + total + " minutos"); // 7 horas tienen: 420 minu
 
 //BLOQUE 4
 
-/* 
-
-EJERCICIO 4
+/* EJERCICIO 4
 
 Tenemos una jirafa en el zoo que pesa 1.120 kilos.
 
 Y le damos de comer 141 kilos de hojas frescas.
 
-¿Cuanto pesa ahora la jirafa?
-
-
-*/
+¿Cuanto pesa ahora la jirafa? */
 
 
 let jirafaKg = 1120;
@@ -132,17 +115,13 @@ console.log(`El peso final de la jirafa tras comer ${hojasFrescas} kilos de hoja
 
 //BLOQUE 5
 
-/* 
-
-EJERCICIO 5
+/* EJERCICIO 5
 
 Tengo una tarta de queso con 16 porciones.
 
 Cada porción cuesta 3.8 euros.
 
-¿Si vendo todas las porciones, cuánto dinero gano en total?
-
-*/
+¿Si vendo todas las porciones, cuánto dinero gano en total? */
 
 
 const tartaPorciones = 16; // Porciones de tarta
@@ -164,17 +143,13 @@ console.log(`Si vendo todas las ${tartaPorciones} porciones de la tarta a ${valo
 
 //BLOQUE 6
 
-/* 
-
-EJERCICIO 6
+/* EJERCICIO 6
 
 En mi tienda de videojuegos tenemos una oferta.
 
 Si compras un juego de 50 euros o más, te hacemos un 20% de descuento.
 
-Si un cliente compra el Tekken 7 que cuesta 50 euros, ¿En cuento le sale el juego con el descuento aplicado?
-
-*/
+Si un cliente compra el Tekken 7 que cuesta 50 euros, ¿En cuento le sale el juego con el descuento aplicado? */
 
 
 const Tekken7 = 50; // Precio del juego
@@ -196,16 +171,12 @@ console.log(`El precio final de Tekken 7 con el descuento del 20% aplicado es: $
 
 //BLOQUE 7
 
-/* 
-
-EJERCICIO 7
+/* EJERCICIO 7
 
 Tenemos un circulo con un diametro de 18 cm.
 
-Calcula el radio del circulo y ponlo en una alerta.
+Calcula el radio del circulo y ponlo en una alerta. */
 
-
-*/
 
 const diametro = 18; // Diámetro del círculo
 
@@ -224,18 +195,13 @@ console.log(`El radio del círculo es: ${radio} cm`); // El radio del circulo es
 
 //BLOQUE 8
 
-/* 
-
-EJERCICIO 8
+/* EJERCICIO 8
 
 Tengo una heladeria y cada bola de helado vale 1.8 euros.
 
 ¿Cuanto cuestan los conos de 1, 2 y tres bolas.
 
-Ten en cuenta que el barquillo cuesta cincuenta centimos de euros (0.50).
-
-
-*/
+Ten en cuenta que el barquillo cuesta cincuenta centimos de euros (0.50). */
 
 
 let precioBola = 1.8;
@@ -270,15 +236,12 @@ console.log(`
 
  //BLOQUE 9
 
-/* 
-
-EJERCICIO 9
+/* EJERCICIO 9
 
 Una milla son 1.6 kilometros.
 
-¿Cuantos kilometros tiene una autopista de 120 millas?
+¿Cuantos kilometros tiene una autopista de 120 millas? */
 
-*/
 
 const milla = 1.6;
 
@@ -298,9 +261,7 @@ console.log(`Una autopista de 120 millas tiene: ${kilometros} kilometros`); // U
 
  //BLOQUE 10
 
-/* 
-
-EJERCICIO 10
+/* EJERCICIO 10
 
 El otro dia fuí con mi amigo Pepe y Manolo a un restaurante de smash burgers.
 
@@ -310,9 +271,7 @@ Yo me comí 2, Pepe se comió 3, y Manolo, como es culturista se comio 6.
 
 Y... ¿Es cierto que yo comí menos que Pepe?
 
-Responde a estas dos preguntas devolviendo el resultado en la consola del navegador.
-
-*/
+Responde a estas dos preguntas devolviendo el resultado en la consola del navegador. */
 
 
 
