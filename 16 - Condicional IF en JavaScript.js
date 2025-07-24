@@ -2,17 +2,14 @@
 
 // CONDICIONAL IF
 
-/* 
 
-Las estructuras de control son instrucciones que permiten al programa tomar decisiones basadas en condiciones.
+/* Las estructuras de control son instrucciones que permiten al programa tomar decisiones basadas en condiciones.
 
 Esto es lo que se conoce como una estructura de control condicional, y en JavaScript se implementa con la sentencia if.
 
 Si algo es verdadero, el programa hace una cosa, y si no, hace otra, o no hace nada.
 
-Por ejemplo, si A es igual a B, entonces haz algo, si no, haz otra cosa. 
-
-*/
+Por ejemplo, si A es igual a B, entonces haz algo, si no, haz otra cosa. */
 
 
 let estaLloviendo = true;
