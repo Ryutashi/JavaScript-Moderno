@@ -9,8 +9,7 @@ Esto es lo que se conoce como una estructura de control condicional, y en JavaSc
 
 Si algo es verdadero, el programa hace una cosa, y si no, hace otra, o no hace nada.
 
-Por ejemplo, si A es igual a B, entonces haz algo, si no, haz otra cosa.
-
+Por ejemplo, si A es igual a B, entonces haz algo, si no, haz otra cosa. 
 */
 
 
