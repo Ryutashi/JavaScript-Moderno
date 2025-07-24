@@ -3,12 +3,14 @@
 // OPERADORES ARITMÉTICOS
 
 /*
+
 Los operadores aritméticos se utilizan para realizar operaciones matemáticas básicas. Los más comunes son:
 - Suma (+)
 - Resta (-)
 - Multiplicación (*)
 - División (/)
 - Módulo (%)
+
 */
 
 let numero1 = 12;
