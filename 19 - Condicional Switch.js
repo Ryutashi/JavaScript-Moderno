@@ -4,7 +4,7 @@
 // MÁS CONDICIONALES
 
 
-// CONDICIONAL SWITCH, CONDICIONAL TERNARIO Y DIFERENCIA ENTRE VAR Y LET (AMBITO / BLOQUE)
+// CONDICIONAL SWITCH
 
 
 
@@ -13,6 +13,7 @@
 
 /* El switch es una estructura de control que permite evaluar una expresión y ejecutar diferentes bloques de código según el valor de esa expresión.
 Es útil cuando se tienen múltiples condiciones basadas en el mismo valor, y se quiere evitar el uso de múltiples if-else. */
+
 
 
 // EJEMPLO 1
@@ -45,6 +46,7 @@ switch (miDesayuno) {
 
 
 
+
 // EJEMPLO 2
 
 // Tambien podemos usar strings como palabra clave, en lugar de números, y funciona igual.
@@ -69,4 +71,29 @@ switch (miDesayuno2) {
         console.log("Has elegido un desayuno diferente"); 
 }
 
+
+
+
+
+// EJEMPLO 3
+
+/* Podemos conseguir el mismo resultado usando el "if" en lugar del "switch", en este caso, usamos el operador de igualdad (==) para comparar el valor de la variable "miDesayuno3" con los diferentes casos.
+Si la condición se cumple, se ejecuta el bloque de código correspondiente. */
+
+
+let miDesayuno3 = "chocolate";
+
+if (miDesayuno3 == "tostada") {
+    console.log("Has elegido tostada con tomate y aceite");
+
+
+}else if (miDesayuno3 == "huevos") {
+    console.log("Has elegido huevos fritos con bacon");
+
+}else if (miDesayuno3 == "chocolate") {
+    console.log("Has elegido chocolate con copos de avena"); // Has elegido chocolate con copos de avena
+
+}else {
+    console.log("Has elegido un desayuno diferente");
+}
 
