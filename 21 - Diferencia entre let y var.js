@@ -14,7 +14,7 @@ pero con "var" es diferente, por que si se puede acceder a ella incluso si se en
 var variableVar = "Se puede acceder globalmente";
 
 
-if ("Tipos de variables" == "Tipos de variables") {
+if ("Tipos de variable" == "Tipos de variable") {
     // Variable var definida fuera del bloque, se cambia su valor
     variableVar = "Se ha cambiado el valor de esta variable";
 
@@ -45,7 +45,7 @@ let variableLet = "Se puede acceder globalmente";
 
 
 
-if ("Tipos de variables" == "Tipos de variables") {
+if ("Tipos de variable" == "Tipos de variable") {
     // Variable let definida fuera del bloque, se cambia su valor para mostrar el alcance de las variables.
     variableLet = "Se ha cambiado el valor de esta variable";
 
