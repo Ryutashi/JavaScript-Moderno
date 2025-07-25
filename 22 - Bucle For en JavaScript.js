@@ -19,7 +19,7 @@ let limite = 177;
 
 
 /* Creamos la variable "contador" que se inicializa en 1, luego le asignamos la condición de que si "contador" es menor o igual a la variable "límite", se incremente en 1 hasta llegar al límite de 177, 
-esto lo conseguimos con el operador de incremento (++) asignandolo a la variable contador al final.
+esto lo conseguimos con el operador de incremento (++) asignandolo a la variable "contador" al final.
 
 Si no se asigna la variable de control, que en este caso es "contador" con el operador de incremento (++), el bucle se ejecutará indefinidamente, lo que podría causar un bucle infinito */
 
