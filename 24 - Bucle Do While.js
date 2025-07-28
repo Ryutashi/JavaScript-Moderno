@@ -40,4 +40,4 @@ do {
     console.log(`El número actual es ${numeros}`); // El número actual es 47
     numeros--; // decremento dentro del bloque
 
-}   while (numeros > 77); // condición falsa al final del bloque, se ejecutó al menos una vez
+}   while (numeros > 77); // Condición falsa al final del bloque, se ejecutó al menos una vez
