@@ -331,7 +331,8 @@ for (let rango = menor + 1; rango < mayor; rango++ ){
     // Si en "rango" el modulo o resto "%" dividido entre "2" no es exactamente "0" (es decir, devuelve "true" o verdadero si es impar)
     if(rango % 2 !== 0){
 
-        // Entonces a la variable "mensaje" se agrega o concatena (despues del mensaje que ya tiene guardado) los números del bucle de la variable "rango" que representa los números impares encontrados, luego se concatena un salto de linea con "\n" por número encontrado.
+        /* Entonces a la variable "mensaje" se agrega o concatena (despues del mensaje que ya tiene guardado) los números del bucle de la variable "rango" 
+        que representa los números impares encontrados, luego se concatena un salto de linea con "\n" por número encontrado. */
         mensaje += rango + "\n"; 
     }
  
