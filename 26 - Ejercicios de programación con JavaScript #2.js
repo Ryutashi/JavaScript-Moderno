@@ -403,3 +403,32 @@ while (intento != numeroElegido) {
 
 
 
+// BLOQUE 19
+
+
+/* EJERCICIO 19
+
+Muestra todos los números divisores de un número ingresados en un prompt */
+
+
+
+// Definimos la variable número con el prompt para ingresar los valores
+let numero = parseInt(prompt("Ingresa un número para ver los divisores", 1))
+
+
+// Con el bucle "for", inicializamos la variable "contador" en "1", luego cuando "contador" sea menor o igual al numero ingresado, inicie el conteo (contador++)
+for(let contador = 1; contador <= numero; contador++){
+
+    // Creamos la condición con "if", si el número ingresado, el módulo o resto (%) por el contador es igual a cero "0"
+    if(numero % contador == 0){
+
+        // Se muestra el resultado de los divisores por consola
+        console.log(`El ${contador} es divisor de ${numero}`)
+        
+    }
+    
+    
+}
+
+
+
