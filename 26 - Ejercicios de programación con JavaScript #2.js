@@ -292,6 +292,8 @@ if (!isNaN(tablaDeMultiplicar) && tablaDeMultiplicar > 0 && tablaDeMultiplicar <
 
 
 
+
+
 // BLOQUE 17
 
 
@@ -340,4 +342,64 @@ for (let rango = menor + 1; rango < mayor; rango++ ){
 // Se muestra el mensaje en una alerta
 alert(mensaje);
 
-*/
+
+
+
+
+
+
+
+
+
+// BLOQUE 18
+
+
+/* EJERCICIO 18
+
+Tenemos una colección de numeros desde el 1 al 17.
+
+Y el usuario tiene que adivinar cual es el elegido .
+
+Haz un programa para que pueda adivinar el número */
+
+
+
+// Creamos la constante con el número elegido
+const numeroElegido = 7;
+
+// Definimos la variable intento que contendrá el número ingresado, sin inicializar todavía
+let intento;
+
+
+
+/* creamos un bucle "while" infinito, y solamente se detendrá cuando no se cumpla esta condición, 
+si "intento" no es igual a "numeroElegido" se seguirá ejecutando el bucle hasta que el usuario ingrese el número correcto */
+
+while (intento != numeroElegido) {
+
+    // Inicializamos la variable "intento" con el prompt para ingresar los números
+    intento = parseInt(prompt("Adivina el número del 1 al 17"));
+
+    // Con un "if" creamos la condición, si "numeroElegido" es estrictamente igual a "intento" (número ingresado por el usuario)
+    if (numeroElegido === intento){
+
+        // Se ejecuta un alert con el mensaje de ¡Enhorabuena!
+        alert("¡Enhorabuena!\n Has adivinado el número")
+
+    }else{
+        // Si no se cumple o el falso, se ejecuta esta alerta
+        alert("número incorrecto")
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
