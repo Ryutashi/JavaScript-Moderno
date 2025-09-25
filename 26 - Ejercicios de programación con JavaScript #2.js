@@ -432,3 +432,44 @@ for(let contador = 1; contador <= numero; contador++){
 
 
 
+
+
+
+
+
+//BLOQUE 20
+
+/* EJERCICIO 20
+
+En base al número que nos da el usuario.
+
+Decirle si es par o impar. */
+
+
+// Definimos la variable número con el prompt para ingresar los valores
+let numero = parseInt(prompt("Ingrese un número:"));
+
+
+// Validamos que el valor ingresado sea un número con el bucle while con isNaN.
+while (isNaN(numero)) {
+
+    // Se ejecuta un alert si el valor ingresado no es un número
+    alert("El valor ingresado no es un número válido");
+
+
+    // Se vuelve a pedir el número al usuario
+    numero = parseInt(prompt("Ingrese un número:"));
+    
+}
+
+/* Condicional "if" para determinar si el número es par o impar, 
+donde la variable "numero" se divide entre 2 y si el resto o modulo (%) es 0, es par, de lo contrario es impar.*/
+if (numero % 2 === 0) {
+    alert(`El número ${numero} es par`);
+
+}else {
+    alert(`El número ${numero} es impar`);
+}
+
+
+
