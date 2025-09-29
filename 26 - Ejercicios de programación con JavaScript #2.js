@@ -439,6 +439,7 @@ for(let contador = 1; contador <= numero; contador++){
 
 //BLOQUE 20
 
+
 /* EJERCICIO 20
 
 En base al número que nos da el usuario.
@@ -469,6 +470,114 @@ if (numero % 2 === 0) {
 
 }else {
     alert(`El número ${numero} es impar`);
+}
+
+
+
+
+
+
+
+
+
+
+// BLOQUE 21
+
+
+/* EJERCICIO 21
+
+CALCULADORA:
+
+- Pida dos números por pantalla
+- Si se ingresan números inválidos, que lo vuelva a pedir
+- En caso de ingresar números válidos, pedir qué operación se quiere realizar
+- Mostrar el resultado por consola y por pantalla en una alerta */
+
+
+
+// Solicitar dos números al usuario
+
+let numero1 = parseFloat(prompt("Ingrese el primer número:"));
+
+let numero2 = parseFloat(prompt("Ingrese el segundo número:"));
+
+
+// Validar que los números ingresados sean válidos con condicional "if" e isNaN
+if(!isNaN(numero1) && !isNaN(numero2) ){
+    numero1 = numero1;
+    numero2 = numero2;
+
+// Si uno de los números es inválido, pedir ambos números nuevamente
+}else if (isNaN(numero1) && isNaN(numero2)) {
+
+    // Mientras ambos números sean inválidos, seguir pidiendo los números en el bucle while
+    while (isNaN(numero1) && isNaN(numero2)) {
+        alert("Por favor, ingrese números válidos.");
+        numero1 = parseFloat(prompt("Ingrese el primer número:"));
+        numero2 = parseFloat(prompt("Ingrese el segundo número:"));
+    }
+}
+
+
+// Se definen las operaciones
+let sumar = numero1 + numero2;
+
+let restar = numero1 - numero2; 
+
+let multiplicar = numero1 * numero2;
+
+let dividir = numero1 / numero2;
+
+
+// Solicitar la operación a realizar con condicional "if" y "toLowerCase" para evitar errores de mayúsculas y minúsculas
+if (!isNaN(numero1) && !isNaN(numero2) ){
+   
+   // definimos la variable operacion con el prompt para ingresar la operación, se define con "var" para que sea accesible globalmente 
+   var operacion = prompt("Ingrese la operación a realizar (sumar, restar, multiplicar, dividir):").toLowerCase();
+}
+
+
+
+
+// Validar que la operación ingresada sea válida con el bucle while
+while (operacion !== "sumar" && operacion !== "restar" && operacion !== "multiplicar" && operacion !== "dividir") {
+
+    // Si la operación no es válida, mostrar un alert
+    alert("Operación no válida. Por favor, ingrese una operación válida (sumar, restar, multiplicar, dividir).");
+
+    // Volver a pedir la operación al usuario
+    operacion = prompt("Ingrese la operación a realizar (sumar, restar, multiplicar, dividir):").toLowerCase();
+
+}
+
+
+// Condicional "if" para mostrar el resultado de la operación por consola y por pantalla en una alerta
+if (operacion === "sumar") {
+
+    alert(`El resultado de la suma es: ${sumar}`);
+    console.log(`El resultado de la suma es: ${sumar}`);
+
+
+}else if (operacion === "restar") {
+
+    alert(`El resultado de la resta es: ${restar}`);
+    console.log(`El resultado de la resta es: ${restar}`);
+
+
+
+}else if (operacion === "multiplicar") {
+
+    alert(`El resultado de la multiplicación es: ${multiplicar}`);
+    console.log(`El resultado de la multiplicación es: ${multiplicar}`);
+
+
+
+}else if (operacion === "dividir") {
+
+    alert(`El resultado de la división es: ${dividir}`);
+    console.log(`El resultado de la división es: ${dividir}`);
+
+
 }
 
 
