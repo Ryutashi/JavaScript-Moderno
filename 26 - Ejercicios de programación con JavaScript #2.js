@@ -582,3 +582,46 @@ if (operacion === "sumar") {
 
 
 
+
+
+
+
+
+
+// BLOQUE 22
+
+
+/* EJERCICIO 22
+
+Tenemos una bolsa con 37 caramelos.
+
+Cada vez que te comes uno, quedan menos.
+
+Haz una simulación de esto con un bucle. */
+
+
+
+// Definimos la variable caramelos con el número inicial de caramelos
+
+let caramelos = 37;
+
+
+// Bucle while que se ejecuta mientras queden caramelos en la bolsa
+while (caramelos >= 1) {
+
+    // Definimos las variables "bolsa" y "comerUno" para mostrar el mensaje por consola, restando uno (-1) a la variable "caramelos" para mostrar los caramelos restantes
+    let bolsa = `Quedan ${caramelos - 1} caramelos en la bolsa.`;
+    
+    let comerUno = `Haz comido un caramelo, ${bolsa}`;
+    
+    // Mostramos el mensaje por consola
+    console.log(comerUno); // 'Haz comido un caramelo, Quedan 36 caramelos en la bolsa.'...
+    
+    // Restamos uno a la variable caramelos en cada iteración del bucle
+    caramelos--;
+    
+    
+}
+
+
+
