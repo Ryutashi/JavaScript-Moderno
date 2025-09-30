@@ -625,3 +625,41 @@ while (caramelos >= 1) {
 
 
 
+
+
+
+
+
+
+
+// BLOQUE 23
+
+
+/* EJERCICIO 23
+
+Tenemos que despegar con un cohete al espacio
+
+y necesitamos una cuenta regresiva de 10.
+
+Hazlo con el bucle for. */
+
+
+
+// Definimos las variables "cohete" y "mensaje" para mostrar los mensajes por consola
+let cohete = "El cohete ha despegado satisfactoriamente";
+
+let mensaje = "Iniciando cuenta regresiva...: ";
+
+// Mostramos el mensaje por consola para iniciar primero el mensaje de la cuenta regresiva
+console.log(mensaje);
+
+// Bucle for que inicia en 10 y va decrementando hasta 1
+for (let conteo = 10; conteo >= 1; conteo--) {
+
+    
+    console.log(conteo);
+
+}
+
+// Mostramos el mensaje por consola una vez finalizado el bucle, informando que el cohete ha despegado
+console.log(cohete);
