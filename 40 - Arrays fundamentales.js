@@ -90,7 +90,7 @@ console.log(peliculas[2]); // 'Troya'
 
 
 
-//MODIFICAR ELEMENTOS DE UN ARRAY
+// MODIFICAR ELEMENTOS DE UN ARRAY
 
 
 /*  Si queremos modificar elementos de un array, seleccionamos la variable con el indíce a modificar,
