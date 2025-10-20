@@ -41,7 +41,7 @@ console.log(videojuegos[1][2]); // 'Stellar Blade'
  
 // Tenemos una tabla multidimencional o 2D, contiene 4 arrays internos
 
-// La tabla tiene 3 colunmas (vertical), y 3 filas (horizontal)
+// La tabla tiene 3 colunmas (vertical), y 4 filas (horizontal)
 
 let tabla = [
     ["Prodcuto", "Cantidad", "Precio"],
