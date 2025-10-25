@@ -129,6 +129,7 @@ Sandwich
 10
 */
 
+
 /* Podemos observar que el resultado 3 solo muestra los elementos que no son arrays, 
 mientras que el resultado 1 muestra todos los elementos, incluyendo los de los arrays internos (precios y tamaños)
 esto es por que en el "else" se muestra el elemento directamente, por lo tanto solo muestra elementos que no estan dentro de otros arrays, 
@@ -148,6 +149,31 @@ for (let menu of cartaRestaurante) {
 
         console.log(`El plato es: ${menu[0]}, la cantidad es: ${menu[1]}, los precios son: ${menu[2]}, y los tamaños son: ${menu[3]}`);
 
+        // 'El plato es: Pizza, la cantidad es: 2, los precios son: 8,10,15, y los tamaños son: pequeno,mediano,grande' 
+        // 'El plato es: Burger, la cantidad es: 4, los precios son: 10,12,17, y los tamaños son: pequeno,mediano,grande' 
+        // 'El plato es: Sandwich, la cantidad es: 10, los precios son: 9,11,13, y los tamaños son: pequeno,mediano,grande'
 
     }
 }
+
+
+
+
+// Tambien podemos mostrar más selectivamente, como el tamaño y el precio pequeño de cada plato
+
+
+for (let menu of cartaRestaurante) {
+
+    if (Array.isArray(menu[2]) && Array.isArray(menu[3])) {
+
+        console.log(`Precio de ${menu[0]} es: ${menu[2][0]}, y el tamaño es: ${menu[3][0]}`);
+
+        // 'Precio de Pizza es: 8, y el tamaño es: pequeno' 
+        // 'Precio de Burger es: 10, y el tamaño es: pequeno' 
+        // 'Precio de Sandwich es: 9, y el tamaño es: pequeno'
+
+    }
+}   
+
+
+
