@@ -52,7 +52,7 @@ let reducirPrimeraMayuscula = dispositivos.reduce((total, actual, indice) => {
     if (indice === 1){
 
         // Creamos una variable que contiene la primera letra en mayúsculas y el resto en minúsculas
-        // Usamos "actual[0]" para obtener la primera letra, y ".slice(1)" para obtener el resto del string desde la posición 1 en adelante
+        // Usamos "total[0]" para obtener la primera letra, y ".slice(1)" para obtener el resto del string desde la posición 1 en adelante
         // Como podemos enlazar métodos, usamos ".tolowerCase()" para convertir el resto del string a minúsculas
         primeraMayusculaTotal = total[0].toUpperCase() + total.slice(1).toLowerCase();
     }
