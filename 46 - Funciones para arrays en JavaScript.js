@@ -23,7 +23,7 @@ console.log(dispositivos); // [ 'PC', 'Laptop', 'Tablet', 'Smartphone', 'Smartwa
 
 
 
-// VER LONGITUD DE UN ARRAY
+// VER LONGITUD DE UN ARRAY (LENGTH)
 
 
 // Método ".length" para conocer la longitud de un array
@@ -33,7 +33,7 @@ console.log(dispositivos.length); // 5
 
 
 
-// AÑADIR ELEMENTOS A UN ARRAY
+// AÑADIR ELEMENTOS A UN ARRAY (PUSH)
 
 
 // Metodo ".push()" para añadir elementos al final de un array
@@ -50,7 +50,7 @@ console.log(dispositivos); // [ 'PC', 'Laptop', 'Tablet', 'Smartphone', 'Smartwa
 
 
 
-// ELIMINAR ELEMENTOS DE UN ARRAY
+// ELIMINAR ELEMENTOS DE UN ARRAY (POP)
 
 
 // Método ".pop()" para eliminar el último elemento de un array
@@ -67,7 +67,7 @@ console.log(dispositivos); // [ 'PC', 'Laptop', 'Tablet', 'Smartphone', 'Smartwa
 
 
 
-//AÑADIR ELEMENTOS AL INICIO DE UN ARRAY
+//AÑADIR ELEMENTOS AL INICIO DE UN ARRAY (UNSHIFT)
 
 
 // Método ".unshift()" para añadir elementos al inicio de un array
@@ -85,7 +85,7 @@ console.log(dispositivos); // [ 'PS2', 'PS3', 'PS4', 'PC', 'Laptop', 'Tablet', '
 
 
 
-// ELIMINAR ELEMENTOS DEL INICIO DE UN ARRAY
+// ELIMINAR ELEMENTOS DEL INICIO DE UN ARRAY (SHIFT)
 
 
 // Método ".shift()" para eliminar el primer elemento de un array
@@ -102,7 +102,7 @@ console.log(dispositivos); // [ 'PS4', 'PC', 'Laptop', 'Tablet', 'Smartphone', '
 
 
 
-// BUSCAR INDICES EN UN ARRAY
+// BUSCAR INDICES EN UN ARRAY (INDEXOF)
 
 
 // Método ".indexOf()" para buscar el índice de un elemento en un array
@@ -115,7 +115,7 @@ console.log(indice); // 2
 
 
 
-// BUSCAR SI EXISTE UN ELEMENTO EN UN ARRAY
+// BUSCAR SI EXISTE UN ELEMENTO EN UN ARRAY (INCLUDES)
 
 
 // Método ".includes()" para saber si un elemento existe en un array
@@ -129,7 +129,7 @@ console.log(existe); // true
 
 
 
-// FILTRAR ARRAYS
+// FILTRAR ARRAYS (FILTER)
 
 // Método ".filter()" para filtrar elementos de un array según una condición
 
