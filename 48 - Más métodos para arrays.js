@@ -73,7 +73,8 @@ console.log(unir); // 'tablet - smartwatch - smartphone - ps5 - pc - laptop'
 
 // COPIAR UN FRAGMENTO DE UN ARRAY (SLICE)
 
-// Método ".slice()" para copiar un fragmento de un array, indicando el índice inicial y el índice final
+// Método ".slice()" para copiar o cortar un fragmento de un array, indicando el índice inicial y el índice final
+// Si queremos cortar, empezamos desde un solo parámetro que indiquemos, util si queremos saltar o indicar que un string empiece a mostrase a partir de donde queramos que se vea según su índice.
 // Si se incluye solo un paramámetro, copia desde ese índice hasta el final del array, si se incluyen dos parámetros, copia desde el índice inicial hasta el índice final (sin incluir el elemento del índice final)
 
 let dispositivosFavoritos = dispositivos.slice(3, 6); // Indicamos que queremos copiar desde el índice 3 hasta el 6
